@@ -1,9 +1,8 @@
 
-   {
-    box-sizing: border-box;
-}
-
+   
+   
 body {
+    box-sizing: border-box;
     background-image: url("../images/pink_rice.png");
     font-size: 18px;
     line-height: 34px;
@@ -155,7 +154,7 @@ h3, .sidebar, h2 {
 footer {
     background: #666;
     color: #fff
-    padding: 30px 0;
+    padding 30px 0;
     clear: both;
     border-top: 8px solid #4aaaa5;
     color: #ccc;
@@ -189,7 +188,7 @@ footer {
     /* opacity: .8; */
 }
 .work h3 {
-    border-bottom; 0;
+    border-bottom: 0;
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
@@ -242,4 +241,18 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    #main-container {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%
+    }
+    .main-section {
+        width: 100%;
+    }
 }
