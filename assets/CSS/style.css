@@ -52,8 +52,6 @@ h2 h3 {
     overflow: auto;
     border-bottom: 2px solid #ccc;
     position: fixed;
-   
-   
     width: 100%;
 }
 
@@ -124,8 +122,6 @@ nav a:first-child {
     float: right;
     border: 1px solid #ddd;
     margin-right: 20px;
-   
-   
    
 }
 
@@ -245,27 +241,114 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
+
     }
+    #masthead {
+        width: 100%;
+}
    
     .sidebar {
         max-width: 100%;
         margin: 0;
-        
-       
-    }
-    .main-section {
-        width: 100%;
-        display: inline-block;
-      
-    }
-    #MyPicture {
-        float: left;
-        margin: 8px;
-        margin-right: 15px;
-        
     }
 
+    .main-section {
+        width: 100%;
+        
+      
+    }
+    #Picture  {
+        float: left;
+        margin: 8px;
+       
+        
+    }
+    .work {
+        max-width: 100%;
+        margin: 0px;
+    }
+    #title {
+        max-width: 100%;
+    }
+    #social2 {
+        width: 10%;
+         
+   }
+
+}
+
+    @media screen and (max-width: 640px) {
+        .container {
+            width: 100%;
+            margin: 0px;
+           
+        }
+        #main-container {
+            max-width: 100%;
+            margin: 0px;
+        }
+        .pic {
+            width: 300px;
+            float: none;
+          width: 100%;
+          margin: 0px;
+           
+        }
+
+        .main-section {
+         
+        
+            width: 100%;
+           
+
+        }
+        .sidebar {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+        }
+        #masthead {
+            width: 100%; 
+            position: static;
+        }
+
+        #logo {
+            width: 100%;
+        }
+        .social {
+            
+            width: 100%;
+        }
+
+        #social2 {
+         width: 15%;
+          
+    }
+        .text {
+            width: 100%;
+            
+        }
+        .work {
+            width: 100%;
+            margin: 0px;
+        }
+        #title {
+            width: 100%;
+            margin: 0px;
+        }
+
+       
+           
+    }
+       
+        
+
+
+
+
+    
 
          
     
-}
+
